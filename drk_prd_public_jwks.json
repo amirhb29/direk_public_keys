@@ -1,13 +1,11 @@
 {
   "keys": [
     {
-      "kty": "EC",
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "5IKiuFmiRIZ2ugevnfjcNDM-ppGvCRqHhemqXlYOwYg",
       "use": "sig",
-      "alg": "ES256",
-      "kid": "ec-key-direk-api-gw",
-      "crv": "P-256",
-      "x": "1_jNM9-wJOsME_4wDu-kS2uuhK8U7yk9M0_mJbkjCCQ",
-      "y": "aC97Gub7Fad4rUTdFk2scVl_V-uo663RUIX7PcsNLgg"
+      "kid": "ed-key-direk-api-gw"
     }
   ]
 }
